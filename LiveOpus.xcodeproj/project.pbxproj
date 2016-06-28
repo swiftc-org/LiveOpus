@@ -8,20 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		246BE6FD1D2218E600CFC5C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246BE6FC1D2218E600CFC5C3 /* AppDelegate.swift */; };
-		246BE6FF1D2218E600CFC5C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246BE6FE1D2218E600CFC5C3 /* ViewController.swift */; };
-		246BE7021D2218E600CFC5C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 246BE7001D2218E600CFC5C3 /* Main.storyboard */; };
 		246BE7041D2218E600CFC5C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 246BE7031D2218E600CFC5C3 /* Assets.xcassets */; };
 		246BE7071D2218E600CFC5C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 246BE7051D2218E600CFC5C3 /* LaunchScreen.storyboard */; };
+		246BE7201D2218F500CFC5C3 /* amf.c in Sources */ = {isa = PBXBuildFile; fileRef = 246BE70F1D2218F500CFC5C3 /* amf.c */; };
+		246BE7211D2218F500CFC5C3 /* hashswf.c in Sources */ = {isa = PBXBuildFile; fileRef = 246BE7151D2218F500CFC5C3 /* hashswf.c */; };
+		246BE7221D2218F500CFC5C3 /* log.c in Sources */ = {isa = PBXBuildFile; fileRef = 246BE7171D2218F500CFC5C3 /* log.c */; };
+		246BE7231D2218F500CFC5C3 /* parseurl.c in Sources */ = {isa = PBXBuildFile; fileRef = 246BE7191D2218F500CFC5C3 /* parseurl.c */; };
+		246BE7241D2218F500CFC5C3 /* rtmp.c in Sources */ = {isa = PBXBuildFile; fileRef = 246BE71A1D2218F500CFC5C3 /* rtmp.c */; };
+		246BE7251D2218F500CFC5C3 /* RTMPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246BE71D1D2218F500CFC5C3 /* RTMPClient.swift */; };
+		246BE7261D2218F500CFC5C3 /* UtilityTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246BE71F1D2218F500CFC5C3 /* UtilityTool.swift */; };
+		246BE7281D22193500CFC5C3 /* PushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246BE7271D22193500CFC5C3 /* PushViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		246BE6F91D2218E600CFC5C3 /* LiveOpus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveOpus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		246BE6FC1D2218E600CFC5C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		246BE6FE1D2218E600CFC5C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		246BE7011D2218E600CFC5C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		246BE7031D2218E600CFC5C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		246BE7061D2218E600CFC5C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		246BE7081D2218E600CFC5C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		246BE70F1D2218F500CFC5C3 /* amf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = amf.c; sourceTree = "<group>"; };
+		246BE7101D2218F500CFC5C3 /* amf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amf.h; sourceTree = "<group>"; };
+		246BE7111D2218F500CFC5C3 /* bytes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bytes.h; sourceTree = "<group>"; };
+		246BE7121D2218F500CFC5C3 /* dh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dh.h; sourceTree = "<group>"; };
+		246BE7131D2218F500CFC5C3 /* dhgroups.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dhgroups.h; sourceTree = "<group>"; };
+		246BE7141D2218F500CFC5C3 /* handshake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = handshake.h; sourceTree = "<group>"; };
+		246BE7151D2218F500CFC5C3 /* hashswf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hashswf.c; sourceTree = "<group>"; };
+		246BE7161D2218F500CFC5C3 /* http.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = http.h; sourceTree = "<group>"; };
+		246BE7171D2218F500CFC5C3 /* log.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = log.c; sourceTree = "<group>"; };
+		246BE7181D2218F500CFC5C3 /* log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = log.h; sourceTree = "<group>"; };
+		246BE7191D2218F500CFC5C3 /* parseurl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = parseurl.c; sourceTree = "<group>"; };
+		246BE71A1D2218F500CFC5C3 /* rtmp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rtmp.c; sourceTree = "<group>"; };
+		246BE71B1D2218F500CFC5C3 /* rtmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtmp.h; sourceTree = "<group>"; };
+		246BE71C1D2218F500CFC5C3 /* rtmp_sys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtmp_sys.h; sourceTree = "<group>"; };
+		246BE71D1D2218F500CFC5C3 /* RTMPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTMPClient.swift; sourceTree = "<group>"; };
+		246BE71F1D2218F500CFC5C3 /* UtilityTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilityTool.swift; sourceTree = "<group>"; };
+		246BE7271D22193500CFC5C3 /* PushViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +75,45 @@
 		246BE6FB1D2218E600CFC5C3 /* LiveOpus */ = {
 			isa = PBXGroup;
 			children = (
+				246BE70E1D2218F500CFC5C3 /* Rtmp */,
+				246BE71E1D2218F500CFC5C3 /* UtilityTool */,
 				246BE6FC1D2218E600CFC5C3 /* AppDelegate.swift */,
-				246BE6FE1D2218E600CFC5C3 /* ViewController.swift */,
-				246BE7001D2218E600CFC5C3 /* Main.storyboard */,
+				246BE7271D22193500CFC5C3 /* PushViewController.swift */,
 				246BE7031D2218E600CFC5C3 /* Assets.xcassets */,
 				246BE7051D2218E600CFC5C3 /* LaunchScreen.storyboard */,
 				246BE7081D2218E600CFC5C3 /* Info.plist */,
 			);
 			path = LiveOpus;
+			sourceTree = "<group>";
+		};
+		246BE70E1D2218F500CFC5C3 /* Rtmp */ = {
+			isa = PBXGroup;
+			children = (
+				246BE70F1D2218F500CFC5C3 /* amf.c */,
+				246BE7101D2218F500CFC5C3 /* amf.h */,
+				246BE7111D2218F500CFC5C3 /* bytes.h */,
+				246BE7121D2218F500CFC5C3 /* dh.h */,
+				246BE7131D2218F500CFC5C3 /* dhgroups.h */,
+				246BE7141D2218F500CFC5C3 /* handshake.h */,
+				246BE7151D2218F500CFC5C3 /* hashswf.c */,
+				246BE7161D2218F500CFC5C3 /* http.h */,
+				246BE7171D2218F500CFC5C3 /* log.c */,
+				246BE7181D2218F500CFC5C3 /* log.h */,
+				246BE7191D2218F500CFC5C3 /* parseurl.c */,
+				246BE71A1D2218F500CFC5C3 /* rtmp.c */,
+				246BE71B1D2218F500CFC5C3 /* rtmp.h */,
+				246BE71C1D2218F500CFC5C3 /* rtmp_sys.h */,
+				246BE71D1D2218F500CFC5C3 /* RTMPClient.swift */,
+			);
+			path = Rtmp;
+			sourceTree = "<group>";
+		};
+		246BE71E1D2218F500CFC5C3 /* UtilityTool */ = {
+			isa = PBXGroup;
+			children = (
+				246BE71F1D2218F500CFC5C3 /* UtilityTool.swift */,
+			);
+			path = UtilityTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +176,6 @@
 			files = (
 				246BE7071D2218E600CFC5C3 /* LaunchScreen.storyboard in Resources */,
 				246BE7041D2218E600CFC5C3 /* Assets.xcassets in Resources */,
-				246BE7021D2218E600CFC5C3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +186,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				246BE6FF1D2218E600CFC5C3 /* ViewController.swift in Sources */,
+				246BE7201D2218F500CFC5C3 /* amf.c in Sources */,
+				246BE7241D2218F500CFC5C3 /* rtmp.c in Sources */,
+				246BE7231D2218F500CFC5C3 /* parseurl.c in Sources */,
+				246BE7221D2218F500CFC5C3 /* log.c in Sources */,
+				246BE7251D2218F500CFC5C3 /* RTMPClient.swift in Sources */,
+				246BE7281D22193500CFC5C3 /* PushViewController.swift in Sources */,
+				246BE7211D2218F500CFC5C3 /* hashswf.c in Sources */,
 				246BE6FD1D2218E600CFC5C3 /* AppDelegate.swift in Sources */,
+				246BE7261D2218F500CFC5C3 /* UtilityTool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		246BE7001D2218E600CFC5C3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				246BE7011D2218E600CFC5C3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		246BE7051D2218E600CFC5C3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -252,9 +302,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LiveOpus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.swiftc.LiveOpus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = LiveOpus/Rtmp/rtmp.h;
 			};
 			name = Debug;
 		};
@@ -263,9 +315,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LiveOpus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.swiftc.LiveOpus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = LiveOpus/Rtmp/rtmp.h;
 			};
 			name = Release;
 		};
