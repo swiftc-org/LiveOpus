@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		243D2E811D22B11A00D0443B /* AudioCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243D2E801D22B11A00D0443B /* AudioCapture.swift */; };
 		246BE6FD1D2218E600CFC5C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246BE6FC1D2218E600CFC5C3 /* AppDelegate.swift */; };
 		246BE7041D2218E600CFC5C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 246BE7031D2218E600CFC5C3 /* Assets.xcassets */; };
 		246BE7071D2218E600CFC5C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 246BE7051D2218E600CFC5C3 /* LaunchScreen.storyboard */; };
@@ -18,9 +19,11 @@
 		246BE7251D2218F500CFC5C3 /* RTMPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246BE71D1D2218F500CFC5C3 /* RTMPClient.swift */; };
 		246BE7261D2218F500CFC5C3 /* UtilityTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246BE71F1D2218F500CFC5C3 /* UtilityTool.swift */; };
 		246BE7281D22193500CFC5C3 /* PushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246BE7271D22193500CFC5C3 /* PushViewController.swift */; };
+		246BE9251D227F3600CFC5C3 /* libopus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 246BE9241D227F3600CFC5C3 /* libopus.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		243D2E801D22B11A00D0443B /* AudioCapture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioCapture.swift; sourceTree = "<group>"; };
 		246BE6F91D2218E600CFC5C3 /* LiveOpus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveOpus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		246BE6FC1D2218E600CFC5C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		246BE7031D2218E600CFC5C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,6 +46,13 @@
 		246BE71D1D2218F500CFC5C3 /* RTMPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTMPClient.swift; sourceTree = "<group>"; };
 		246BE71F1D2218F500CFC5C3 /* UtilityTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilityTool.swift; sourceTree = "<group>"; };
 		246BE7271D22193500CFC5C3 /* PushViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushViewController.swift; sourceTree = "<group>"; };
+		246BE91F1D227F3600CFC5C3 /* opus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opus.h; sourceTree = "<group>"; };
+		246BE9201D227F3600CFC5C3 /* opus_custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opus_custom.h; sourceTree = "<group>"; };
+		246BE9211D227F3600CFC5C3 /* opus_defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opus_defines.h; sourceTree = "<group>"; };
+		246BE9221D227F3600CFC5C3 /* opus_multistream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opus_multistream.h; sourceTree = "<group>"; };
+		246BE9231D227F3600CFC5C3 /* opus_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opus_types.h; sourceTree = "<group>"; };
+		246BE9241D227F3600CFC5C3 /* libopus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopus.a; sourceTree = "<group>"; };
+		246BE9261D227FAC00CFC5C3 /* bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				246BE9251D227F3600CFC5C3 /* libopus.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,10 +86,13 @@
 		246BE6FB1D2218E600CFC5C3 /* LiveOpus */ = {
 			isa = PBXGroup;
 			children = (
+				246BE7291D22220F00CFC5C3 /* Opus */,
 				246BE70E1D2218F500CFC5C3 /* Rtmp */,
 				246BE71E1D2218F500CFC5C3 /* UtilityTool */,
 				246BE6FC1D2218E600CFC5C3 /* AppDelegate.swift */,
 				246BE7271D22193500CFC5C3 /* PushViewController.swift */,
+				243D2E801D22B11A00D0443B /* AudioCapture.swift */,
+				246BE9261D227FAC00CFC5C3 /* bridge.h */,
 				246BE7031D2218E600CFC5C3 /* Assets.xcassets */,
 				246BE7051D2218E600CFC5C3 /* LaunchScreen.storyboard */,
 				246BE7081D2218E600CFC5C3 /* Info.plist */,
@@ -114,6 +128,27 @@
 				246BE71F1D2218F500CFC5C3 /* UtilityTool.swift */,
 			);
 			path = UtilityTool;
+			sourceTree = "<group>";
+		};
+		246BE7291D22220F00CFC5C3 /* Opus */ = {
+			isa = PBXGroup;
+			children = (
+				246BE91E1D227F3600CFC5C3 /* include */,
+				246BE9241D227F3600CFC5C3 /* libopus.a */,
+			);
+			path = Opus;
+			sourceTree = "<group>";
+		};
+		246BE91E1D227F3600CFC5C3 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				246BE91F1D227F3600CFC5C3 /* opus.h */,
+				246BE9201D227F3600CFC5C3 /* opus_custom.h */,
+				246BE9211D227F3600CFC5C3 /* opus_defines.h */,
+				246BE9221D227F3600CFC5C3 /* opus_multistream.h */,
+				246BE9231D227F3600CFC5C3 /* opus_types.h */,
+			);
+			path = include;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				246BE7201D2218F500CFC5C3 /* amf.c in Sources */,
+				243D2E811D22B11A00D0443B /* AudioCapture.swift in Sources */,
 				246BE7241D2218F500CFC5C3 /* rtmp.c in Sources */,
 				246BE7231D2218F500CFC5C3 /* parseurl.c in Sources */,
 				246BE7221D2218F500CFC5C3 /* log.c in Sources */,
@@ -304,9 +340,13 @@
 				INFOPLIST_FILE = LiveOpus/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LiveOpus/Opus",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.swiftc.LiveOpus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = LiveOpus/Rtmp/rtmp.h;
+				SWIFT_OBJC_BRIDGING_HEADER = LiveOpus/bridge.h;
 			};
 			name = Debug;
 		};
@@ -317,9 +357,13 @@
 				INFOPLIST_FILE = LiveOpus/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LiveOpus/Opus",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.swiftc.LiveOpus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = LiveOpus/Rtmp/rtmp.h;
+				SWIFT_OBJC_BRIDGING_HEADER = LiveOpus/bridge.h;
 			};
 			name = Release;
 		};
@@ -342,6 +386,7 @@
 				246BE70D1D2218E600CFC5C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
